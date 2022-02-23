@@ -5,11 +5,12 @@
     <link rel="stylesheet" href="css/import.css">
 </head>
 <body>
+    <!--header 영역-->
     <div id="thema_wrapper">
         <div class="wrapper">
             <header>
                 <a href="">브리더 아카데미</a>
-                <ul>
+                <ul class="header-menu">
                     <li class="menu-li"><a href="">곤충자료실</a></li>
                     <li class="menu-li"><a href="">갤러리</a></li>
                     <li class="menu-li"><a href="">커뮤니티</a></li>
@@ -17,32 +18,41 @@
                     <li class="menu-li"><a href="">고객센터</a></li>
                 </ul>
             </header>
+            <!--main 영역-->
             <main>
                 <aside id="main-sidebar">
                     <section class="sidebar">
-                        <div class="sidebar-login">
+                        <div class="login">
                             <form action="">
                                 <div class="loginbox">
                                     <div class="loginbox-input">
                                         <input type="text">
                                         <input type="text">
-                                    </div>
-                                    <div class="loginbox-click">
-                                        <button type="submit" style="width: 30px; height: 30px;">
-                                            ㅇ
+                                        
+                                        <button type="submit" value="">
+                                            로그인
                                         </button>
-                                </div>
-                                <span>
+                                    </div>
+                                        
+                                <span class="otherbox">
                                     <a href="">회원가입</a>
                                     &nbsp;|&nbsp;
                                     <a href="">정보찾기</a>
                                 </span>
+                                <div class="snslogin">
+                                    <p class="snslogin-p">소셜계정으로 로그인</p>
+                                    <div style="margin-left: auto; margin-right: auto; display: flex; justify-content: space-evenly;">
+                                        <div style="border: 1px solid black; width: 40px; height: 40px;"></div>
+                                        <div style="border: 1px solid black; width: 40px; height: 40px;"></div>
+                                    </div>
+                                </div>
+                                </div>
                             </form>
                         </div>
                         <ul class="sidebar-menu">
-                            <li>FAVORITE BOARD</li>
-                            <li>MAIN NAVIGATION</li>
-                            <li><a href="">메인</a></li>
+                            <li class="tagname">FAVORITE BOARD</li>
+                            <li class="tagname">MAIN NAVIGATION</li>
+                            <li class="sidemenu-li"><a href="">메인</a></li>
                             <li>
                                 <a href="">곤충자료실</a>
                                
@@ -89,17 +99,21 @@
                             </li>
 
                         </ul>
-                        <div>SITE STATISTICS</div>
+                        <div class="tagname">SITE STATISTICS</div>
                         <ul>
                             <li>전체 게시물</li>
                             <li>전체 댓글수</li>
                             <li>전체 회원수</li>
-                            
                         </ul>
+                        
+                        
+                        
                     </section>
                    
                 </aside>
+                <!--컨텐츠-->
                 <div id="contentbox">
+                    <!--개발할부분-->
                     컨텐츠
                    
                     
@@ -107,6 +121,7 @@
                 </div>
                 
             </main>
+            <!--footer영역-->
             <footer>
                 푸터
             </footer>
