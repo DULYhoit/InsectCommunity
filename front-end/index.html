@@ -26,8 +26,13 @@
                             <form action="">
                                 <div class="loginbox">
                                     <div class="loginbox-input">
-                                        <input type="text">
-                                        <input type="text">
+                                        <div>
+                                            <input type="text" placeholder="아이디">
+                                        </div>
+                                            <div>
+                                                <input type="text" placeholder="비밀번호">
+                                            </div>
+
                                         
                                         <button type="submit" value="">
                                             로그인
@@ -57,14 +62,14 @@
                                 <a href="">곤충자료실</a>
                                
                             </li>
-                            <li class="sidemenu-li">
+                            <li class="sidemenu-li active">
                                 <a href=""><span>갤러리</span></a>
                                 <ul class="sidemenu-ul">
-                                    <a href="">사슴/장수</a>
+                                    <a href=""><span>O</span> 사슴/장수</a>
                                         <ul class="sidemenu-ul">
-                                            <li><a href="">사슴벌레</a></li>
-                                            <li><a href="">장수풍뎅이</a></li>
-                                            <li><a href="">기타</a></li>
+                                            <li class="last-a"><a href=""><span>o</span> 사슴벌레</a></li>
+                                            <li><a href=""><span>o</span> 장수풍뎅이</a></li>
+                                            <li><a href=""><span>o</span> 기타</a></li>
                                      </ul> 
                                 </ul>
                             </li>
@@ -100,10 +105,26 @@
 
                         </ul>
                         <div class="tagname">SITE STATISTICS</div>
-                        <ul>
-                            <li>전체 게시물</li>
-                            <li>전체 댓글수</li>
-                            <li>전체 회원수</li>
+                        <ul class="statistics-ul">
+                            <li class="statistics-li">
+                                <a href="">
+                                    <i class="fa fa-circle-o red">O</i>
+                                    전체 게시물 
+                                <span class="pull-right">417 개</span>
+                            </a>
+                        </li>
+                        <li class="statistics-li">
+                            <a href="">
+                                <i class="fa fa-circle-o red">O</i>
+                                전체 댓글수 
+                            <span class="pull-right">417 개</span>
+                        </a>
+                        <li class="statistics-li">
+                            <a href="">
+                                <i class="fa fa-circle-o red">O</i>
+                                전체 회원수 
+                            <span class="pull-right">417 명</span>
+                        </a>
                         </ul>
                         
                         
@@ -123,7 +144,15 @@
             </main>
             <!--footer영역-->
             <footer>
-                푸터
+                <nav>
+                    <a href='' target='_blank'>Blog</a> |
+                    <a href='' target='_blank'>Github</a>
+                </nav>
+                <p>
+                    <span>저자 : 한상우</span><br/>
+                    <span>이메일 : 한상우@naver.com</span><br/>
+                    <span>Copyright 2020. cocoder. All Rights Reserved.</span>
+                </p>
             </footer>
     
         </div>
