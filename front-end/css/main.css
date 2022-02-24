@@ -132,19 +132,36 @@ aside {
     }
 .sidebar-menu{
     height: auto;
-    background-color: red;
+    
 }
     .sidebar-menu  li  a:visited{
         color:rgb(184,199,206);
     }
-.sidemenu-li{
-    
+.sidemenu-li a{
+    display: block;
     padding: 10px 5px 10px 15px;
     font-size: 13px;
-    vertical-align: middle;
-    background-color: aqua;
+    background-color: rgb(34,45,50);
     
 }
+    
+    
+.sidebar-menu > li.active > a{
+    
+    background: #1e282c;
+}
+.sidemenu-ul {
+    display: none;
+     
+}
+.menu-open{
+    display: block;
+    padding: 10px 5px 2px 15px;
+    font-size: 13px;
+    color: #8aa4af;
+    
+}
+
 #contentbox {
    
     width: 950px;
