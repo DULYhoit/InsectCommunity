@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Road+Rage&display=swap');
 #board-box{
     margin-top:5%;
-    border: 1px solid;
-    padding: 10px;
     height: auto;
     margin-left:5%;
     margin-right:5%;
 }
 #board-header{
-    border: 1px solid;
-    padding: 10px;
     width:100%;
     background-color: #F5F5F5;
 }
@@ -32,4 +28,35 @@
 }
 #board-box button:hover{
     background-color: #99CC66;
+}
+#go-list-btn{
+    margin-left: 700px;
+    background-color: transparent;
+    border-color: transparent;
+    display: inline;
+
+}
+#report-btn{
+    background-color: transparent;
+    border-color: transparent;
+}
+#comment-box{
+    margin-top:5%;
+    height: auto;
+    margin-left:5%;
+    margin-right:5%;
+}
+#comment-box p {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#people-like-post{
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+.comment-register-box{
+    margin-top:5%;
+    height: auto;
+    margin-left:5%;
+    margin-right:5%;
 }

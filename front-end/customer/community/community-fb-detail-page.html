@@ -154,8 +154,141 @@
                         </p>
                     </div>
                     <button onclick="good()" id="good-btn"> <i class="fa-solid fa-thumbs-up fa-xl"></i> </button>
+                    <button onclick="goList('/customer/community/communty-fb-listPage.html')" id="go-list-btn"  name=""><i class="fa-solid fa-list"></i>목록</button>
+                    <button id="report-btn" onclick="report()"> 신고 <i class="fa-solid fa-exclamation"></i></button>
+                    <p id="people-like-post">이게시글은 3 명이 좋아합니다.</p>
                     </div>
+                    <div class="comment-register-box">
+                        <fieldset>
+                            <legend>CommentRegister</legend>
+                            <ul>
+                                <li>
+                                    <select id="star">
+                                        <optgroup label="별점을 선택해주세요.">
+                                            <option value=1>★☆☆☆☆</option>
+                                            <option value=2>★★☆☆☆</option>
+                                            <option value=3>★★★☆☆</option>
+                                            <option value=4>★★★★☆</option>
+                                            <option value=5>★★★★★</option>
+                                        </optgroup>
+                                    </select>
+                                </li>
+                            </ul>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <textarea  style="width:750px;min-height:100px;" onkeydown="resize(this)" onkeyup="resize(this)" type="text"></textarea>
+                                    </td>
+                                    <td>
+                                        <button style="width:50px; height: 106px;">등록</button>
+                                    </td>
+                                </tr>
+                            </table>
+                            <p style="display:inline;margin-left: 714px;"><input type="checkbox" value="Secret">비밀글</p>
+                            <button style="background-color:transparent; border-color:darkgray;"><i class="fa-solid fa-image"></i></button>
+                        </fieldset>
+                        
+                    </div>
+                    <div id="comment-box">
+                        <p><i class="fa-solid fa-comment-dots"></i>3 Comments <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star">
+                            </i><i class="fa-solid fa-star"></i>/5.0</p>
+                            <hr>
+                            <div id="comment">          
+                                <div class="comment-header">
+                                    <table>
+                                        <tr>
+                                            <td style="width:100px;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                            <td style="width:60px;">한상우</td>
+                                            <td style="font-size:0.7em;width:80px;"><i class="fa-solid fa-clock"></i>2022.01.23</td>
+                                            <td style="font-size:0.6em;width:500px;"><i class="fa-solid fa-location-pin"></i>233.434.323</td>
+                                            <td style="font-size: 0.8em;"><button onclick="reply_btn()">답변</button></td>
+                                            <td style="font-size: 0.8em;"><button onclick="commentReport()" style="background-color: transparent;border-color: transparent;">신고</button></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="comment-text" style="margin-top: 1%;">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                               와 저건무슨 괴물이냐
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <!--대댓글 register영역-->
+                                <div id="reply-register-box" style="display:none;">
+                                    <fieldset style="height: auto;">
+                                        <legend>작성자</legend>
+                                        <table>
+                                            <tr>
+                                                <td><textarea style="width:750px;" onkeydown="resize(this)" onkeyup="resize(this)"></textarea></td>
+                                                <td><button style="width: 50px;height: 50px;">등록</button></td>
+                                            </tr>
+                                        </table>
+                                        <table>
+                                            <tr>
+                                                <td style="margin-left: 250p">
+                                                    <p style="display:inline;margin-left: 714px;"><input type="checkbox" value="Secret">비밀글</p>
+                                                    <button style="background-color:transparent; border-color:darkgray;"><i class="fa-solid fa-image"></i></button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </fieldset>
+                                </div>
+                                <!--대댓글 register영역 끝-->
 
+                                <!--대댓글 영역-->
+                                <div id="reply" style="margin-left:6%; margin-top: 3%;">
+                                    <div id="reply-header">
+                                        <table>
+                                            <tr>
+                                                <td><i class="fa-solid fa-share"></i></td>
+                                                <td style="width:60px;">김은규</td>
+                                                <td style="font-size:0.7em;width:80px;"><i class="fa-solid fa-clock"></i>2022.01.23</td>
+                                                <td style="font-size:0.6em;width:500px;"><i class="fa-solid fa-location-pin"></i>233.434.323</td>
+                                                <td style="font-size: 0.8em;">답변</td>
+                                                <td style="font-size: 0.8em;">신고</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div id="reply-text">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                   ㄹㅇㅋㅋ괴물 ㄷㄷ
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!-- 대댓글영역 끝-->
+                            </div>
+                            <div>          
+                                <div class="comment-header" style="margin-top: 3%">
+                                    <table>
+                                        <tr>
+                                            <td style="width:100px;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                            <td style="width:60px;">김은규</td>
+                                            <td style="font-size:0.7em;width:80px;"><i class="fa-solid fa-clock"></i>2022.01.23</td>
+                                            <td style="font-size:0.6em;width:500px;"><i class="fa-solid fa-location-pin"></i>275.178.33</td>
+                                            <td style="font-size: 0.8em;">답변</td>
+                                            <td style="font-size: 0.8em;">신고</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="comment-text" style="margin-top: 1%;">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                저거 내가 살게요 얼마임?
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>   
+
+                    </div>
                 </div>
                 
             </main>
@@ -191,6 +324,28 @@
     <script lang="javascript">
         function good () {
             alert("추천되었습니다.")
+        }
+        function goList(str) {
+            location.replace(str);
+        }
+        function report() {
+            alert("신고되었습니다.")
+        }
+        function commentReport (){
+            alert("댓글이 신고되었습니다.")
+        }
+        function resize(obj) {
+        obj.style.height = "1px";
+        obj.style.height = (12+obj.scrollHeight)+"px";
+        }
+        function reply_btn () {
+            if(document.getElementById("reply-register-box").style.display == "none"){
+
+            document.getElementById("reply-register-box").style.display = "block";
+            }
+            else{
+                document.getElementById("reply-register-box").style.display = "none";
+            }
         }
     </script>
 </body>
