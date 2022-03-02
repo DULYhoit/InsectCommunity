@@ -1,6 +1,9 @@
 a{
     text-decoration: none;
+    
+    cursor: pointer; /*마우스 커서를 포인트에서 디폴트로 변경*/
 }
+
 a:visited{
     color: black;
 }
@@ -153,6 +156,11 @@ aside {
     background-color: rgb(34,45,50);
     
 }
+.sidemenu-li ul a{
+    background: #2c3b41;
+}
+
+    
     
     
 .sidebar-menu > li.active > a{
@@ -162,6 +170,10 @@ aside {
 .sidemenu-ul {
     display: none;
 }
+
+    
+
+
 .menu-open{
     display: block;
     font-size: 13px;
