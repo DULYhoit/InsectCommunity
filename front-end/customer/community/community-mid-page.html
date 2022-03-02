@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>브리더 아카데미</title>
+    <link rel="stylesheet" href="../../css/import.css">
+    <script src="https://kit.fontawesome.com/8e655a63b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--header 영역-->
+    <div id="thema_wrapper">
+        <div class="wrapper">
+            <header>
+                <a href="">브리더 아카데미</a>
+                <ul class="header-menu">
+                    <li class="menu-li"><a href="">곤충자료실</a></li>
+                    <li class="menu-li"><a href="">갤러리</a></li>
+                    <li class="menu-li"><a href="">커뮤니티</a></li>
+                    <li class="menu-li"><a href="">곤충키우기</a></li>
+                    <li class="menu-li"><a href="">고객센터</a></li>
+                </ul>
+            </header>
+            <!--main 영역-->
+            <main>
+                <aside id="main-sidebar">
+                    <section class="sidebar">
+                        <div class="login">
+                            <form action="">
+                                <div class="loginbox">
+                                    <div class="loginbox-input">
+                                        <input type="text">
+                                        <input type="text">
+                                        
+                                        <button type="submit" value="">
+                                            로그인
+                                        </button>
+                                    </div>
+                                        
+                                <span class="otherbox">
+                                    <a href="">회원가입</a>
+                                    &nbsp;|&nbsp;
+                                    <a href="">정보찾기</a>
+                                </span>
+                                <div class="snslogin">
+                                    <p class="snslogin-p">소셜계정으로 로그인</p>
+                                    <div style="margin-left: auto; margin-right: auto; display: flex; justify-content: space-evenly;">
+                                        <div style="border: 1px solid black; width: 40px; height: 40px;"></div>
+                                        <div style="border: 1px solid black; width: 40px; height: 40px;"></div>
+                                    </div>
+                                </div>
+                                </div>
+                            </form>
+                        </div>
+                        <ul class="sidebar-menu">
+                            <li class="tagname">FAVORITE BOARD</li>
+                            <li class="tagname">MAIN NAVIGATION</li>
+                            <li class="sidemenu-li"><a href="">메인</a></li>
+                            <li>
+                                <a href="">곤충자료실</a>
+                               
+                            </li>
+                            <li>
+                                <a href="">갤러리</a>
+                                <ul>
+                                    <a href="">사슴/장수</a>
+                                        <ul>
+                                            <li><a href="">사슴벌레</a></li>
+                                            <li><a href="">장수풍뎅이</a></li>
+                                            <li><a href="">기타</a></li>
+                                     </ul> 
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">커뮤니티</a>
+                                <ul>
+                                    <li><a href="">자유게시판</a></li>
+                                    <li>
+                                        <a href="">곤충관련 Q&A</a>
+                                        <ul>
+                                            <li><a href="">채집관련</a></li>
+                                            <li><a href="">사육관련</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">사육채집일기</a>
+                                        <ul>
+                                            <li><a href="">사육일기</a></li>
+                                            <li><a href="">채집일기</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">곤충키우기</a>
+                                <ul></ul>
+                            </li>
+                            <li>
+                                <a href="">고객센터</a>
+                                <ul></ul>
+                            </li>
+
+                        </ul>
+                        <div class="tagname">SITE STATISTICS</div>
+                        <ul>
+                            <li>전체 게시물</li>
+                            <li>전체 댓글수</li>
+                            <li>전체 회원수</li>
+                        </ul>
+                        
+                        
+                        
+                    </section>
+                   
+                </aside>
+                <!--컨텐츠-->
+                <div id="contentbox">
+                    <!--개발할부분-->
+                    <p id="head-text">커뮤니티</p><hr id="head-band"/>
+                    <div class="img-box">
+                        <a href="https://www.naver.com"><img id="img1" src="https://ifh.cc/g/6upe7U.jpg"  style="visibility: hidden;"/></a>
+                        <a href="https://www.daum.net/"><img id="img2" src="https://ifh.cc/g/mXJaoD.jpg" style="visibility: visible;" /></a>
+                        <a href="https://www.kakaocorp.com/page/"><img id="img3" src="https://ifh.cc/g/XxQtN1.jpg" style="visibility: hidden" /></a>
+                        <button onclick="mius()" id="leftimgbtn"><i class="fa-solid fa-arrow-left"></i></button><button onclick="plus()" id="rightimgbtn"><i class="fa-solid fa-arrow-right"></i></button>
+
+                    </div>
+                    <div id="row">
+                        <div id="month-best">
+                            <p id="month-best-title">월간 베스트<hr id="title-band"></p>
+                            <table>
+                                <tr>
+                                    <td  id="month-board-rank">1</td>
+                                    <td  id="board-title"><!--boardTitle--><a href="">각종벌레</a></td>
+                                    <td  id="board-view"><!--boardView-->23</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="month-board-rank">2</td>
+                                    <td  id="board-title"><!--boardTitle-->사슴벌레의 관해</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="month-board-rank">3</td>
+                                    <td  id="board-title"><!--boardTitle-->충우 홈이 바뀌었습니다!</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="month-board-rank">4</td>
+                                    <td  id="board-title"><!--boardTitle-->왕사VS넓사!</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="month-board-rank">5</td>
+                                    <td  id="board-title"><!--boardTitle-->나는나비입니다</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="month-board-rank">6</td>
+                                    <td  id="board-title"><!--boardTitle-->두근두근두점박이</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="month-board-rank">7</td>
+                                    <td  id="board-title"><!--boardTitle-->롤에서져서사슴벌레마우스.jpg</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="month-board-rank">8</td>
+                                    <td  id="board-title"><!--boardTitle-->아마존사슴벌레</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="month-board-rank">9</td>
+                                    <td  id="board-title"><!--boardTitle-->우리반에서제일큰벌레</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="month-board-rank">10</td>
+                                    <td  id="board-title"><!--boardTitle-->이거맞나요?</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+
+                            </table>
+                        </div>
+                        <div id="week-best">
+                            <p id="week-best-title">주간베스트<hr id="title-band"></p>
+                            <table>
+                                <tr>
+                                    <td  id="week-board-rank">1</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->23</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="week-board-rank">2</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.2</td>
+                                    <td  id="board-view"><!--boardView-->23</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="week-board-rank">3</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.3</td>
+                                    <td  id="board-view"><!--boardView-->23</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="week-board-rank">4</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.4</td>
+                                    <td  id="board-view"><!--boardView-->23</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="week-board-rank">5</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.5</td>
+                                    <td  id="board-view"><!--boardView-->23</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="week-board-rank">6</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.6</td>
+                                    <td  id="board-view"><!--boardView-->23</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="week-board-rank">7</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.7</td>
+                                    <td  id="board-view"><!--boardView-->23</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="week-board-rank">8</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.8</td>
+                                    <td  id="board-view"><!--boardView-->23</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="week-board-rank">9</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.9</td>
+                                    <td  id="board-view"><!--boardView-->23</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="week-board-rank">10</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.10</td>
+                                    <td  id="board-view"><!--boardView-->23</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+
+                            </table>
+                        </div>
+                        <div id="free-board">
+                            <a href="http://localhost:5555/customer/community/communty-fb-listPage.html"><p id="free-board-title">자유게시판<hr id="title-band"></p></a>
+                            <table>
+                                <tr>
+                                    <td  id="board-no">1</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">2</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">3</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">4</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">5</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">6</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">7</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">8</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">9</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">10</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="QnA-board">
+                            <a href=""><p id="QnA-board-title">QnA게시판<hr id="title-band"></p></a>
+                            <table>
+                                <tr>
+                                    <td  id="board-no">1</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">2</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">3</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">4</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">5</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">6</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">7</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">8</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">9</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">10</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="bcd-board">
+                            <!--breed-collect-diary == bcd-->
+                            <a href=""><p id="bcd-board-title">사육/채집일기<hr id="title-band"></p></a>
+                            <table>
+                                <tr>
+                                    <td  id="board-no">1</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">2</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">3</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">4</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">5</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">6</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">7</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">8</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">9</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                                <tr>
+                                    <td  id="board-no">10</td>
+                                    <td  id="board-title"><!--boardTitle-->boardNo.1</td>
+                                    <td  id="board-view"><!--boardView-->34</td>
+                                    <td  id="board-create-date"><!--boardCreatedDate-->01.09</td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+            </main>
+            <!--footer영역-->
+            <footer>
+                푸터
+            </footer>
+    
+        </div>
+
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="../../js/jquery-3.6.0.slim.js"></script>
+    <script>
+        
+
+       
+        
+        
+      </script>
+      <script lang="javascript">
+        
+        function plus(){
+            if(document.getElementById("img1").style.visibility =="visible"){
+
+                document.getElementById("img3").style.visibility ="hidden";
+                document.getElementById("img2").style.visibility ="visible";
+                document.getElementById("img1").style.visibility ="hidden";
+            }
+            else{
+                document.getElementById("img3").style.visibility ="visible";
+                document.getElementById("img2").style.visibility ="hidden";
+                document.getElementById("img1").style.visibility ="hidden";
+            }
+           
+        }
+        function mius() {
+            if(document.getElementById("img3").style.visibility =="visible"){
+
+                document.getElementById("img3").style.visibility ="hidden";
+                document.getElementById("img2").style.visibility ="visible";
+                document.getElementById("img1").style.visibility ="hidden";
+            }
+            else {
+                document.getElementById("img3").style.visibility ="hidden";
+                document.getElementById("img2").style.visibility ="hidden";
+                document.getElementById("img1").style.visibility ="visible";
+            }
+            
+        }
+      </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Road+Rage&display=swap');
+#board-box{
+    margin-top:5%;
+    border: 1px solid;
+    padding: 10px;
+    height: auto;
+    margin-left:5%;
+    margin-right:5%;
+}
+#board-header{
+    border: 1px solid;
+    padding: 10px;
+    width:100%;
+    background-color: #F5F5F5;
+}
+#detail-board-title {
+    width: 100%;
+    font-size: 2em;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#board-box td {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#good-btn {
+    width:100px;
+    margin:auto;
+    display:block;
+    color: #183153;
+    background-color: #66CC66;
+    border-radius: 100%;
+    height: 100px;
+}
+#board-box button:hover{
+    background-color: #99CC66;
+}

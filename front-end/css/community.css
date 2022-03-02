@@ -1,0 +1,174 @@
+/*폰트*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Road+Rage&display=swap');
+
+/*이미지위 머릿말부분*/
+#head-text{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.5em;
+    margin-left: 50px;
+    
+
+}
+#head-band {
+    margin-left:50px;
+    border: solid 3px rgb(53, 194, 53); width: 87%;
+}
+/*이미지박스css*/
+.img-box {
+
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 200px;
+}
+/*list 종합박스*/
+#row {
+    height: 1000px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+#title-band {
+    border: solid 3px rgb(219, 223, 219); width: 100%;
+    
+}
+
+/*보드*/
+#board-title{
+    font-family: 'Noto Sans KR', sans-serif;
+    width:300px;
+}
+#board-view{
+    font-size: 0.7em;
+    color: red;
+}
+#board-create-date{
+    font-size: 0.7em;
+}
+#board-no{
+    background-color: rgb(124, 122, 122);
+    color: white;
+    font-size: 0.8em;
+}
+
+/*주간베스트css*/
+#week-board-rank {
+    background-color: rgb(12, 146, 30);
+    color: white;
+    text-align:center
+}
+#week-best {
+    
+    float:right;
+    width:380px;
+    height: 270px;
+   
+}
+#week-best-title {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: inline;
+}
+
+/*월간베스트css*/
+#month-board-rank {
+    background-color: rgb(201, 32, 54);
+    color: white;
+    text-align:center
+}
+#month-best {
+    float: left;
+    
+    height: 270px;
+    width: 380px;
+   
+}
+#month-best-title {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: inline;
+}
+
+/*자유게시판css*/
+#free-board {
+    margin-top : 5%;
+    
+    float: left;
+    width:380px;
+    height: 270px;
+
+}
+#free-board p:hover {
+    color: green;
+}
+#free-board-title {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: inline;
+}
+/*QnA게시판css*/
+#QnA-board-title {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: inline;
+}
+#QnA-board {
+    margin-top : 5%;
+    float: right;
+    width:380px;
+    height: 270px;
+
+}
+#QnA-board p:hover{
+    color:green;
+}
+/*사육/채집일기게시판css*/
+#bcd-board{
+    margin-top : 5%;
+    
+    float: left;
+    width:380px;
+    height: 270px;
+
+}
+#bcd-board-title {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: inline;
+}
+/*이미지*/
+#img1{
+    width:840px;
+    height: 200px;
+    position: absolute;
+}
+#img2{
+    width:840px;
+    height: 200px;
+    position: absolute;
+}
+#img3{
+    width:840px;
+    height: 200px;
+    position: absolute;
+}
+#leftimgbtn {
+    position: absolute;
+    margin-top: 100px; 
+    border-radius: 100%;
+    border-color: transparent;
+    
+
+}
+
+#rightimgbtn {
+    
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 100px;
+    border-radius: 100%;
+    border-color: transparent;
+    
+}
+.img-box button:hover {
+    background-color: pink;
+ }
+.img-box button:active {
+      color: aqua;
+  }
