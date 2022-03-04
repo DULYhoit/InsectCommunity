@@ -52,24 +52,92 @@ header {
     
      
 .header-menu{
-        padding-top: 10px;
-        padding-left: 50px;
+        
+        padding-left: 120px;
     }
+    
     .menu-li {
-        box-sizing: border-box;
+        
         width: 100px;
-        height: 40px;
+        height: 16px;
         margin: 0 0 0 0;
        
         text-align: center;
         
-        padding-top: 10px;
+        padding: 17px 0px;
         font-size: 12px;
         float: left;
     }
-    .menu-li > a:visited{
-        color: white; text-decoration: none;
+    .menu-li:hover {
+        background-color: rgb(97, 97, 97);
     }
+        
+    .menu-li > a:visited{
+        color: white; 
+        text-decoration: none;
+    }
+    .menubox-top{
+        position: absolute;
+        top: 50px;
+        width: 200px;
+        background-color: blue;
+        
+        
+        
+    }
+        .menubox-ul{
+            display: none;
+            background: white;
+            box-shadow: 5px 5px 5px 5px rgb(223, 223, 223);
+        }
+        .menubox-li{
+                
+                padding: 10px 0px;
+                border-bottom: 1px solid gray;
+                text-align: center;
+            }
+            
+            
+                
+        .menubox-li:hover {
+                background-color: rgb(97, 97, 97);
+            }
+        .menubox-li:hover >a {
+                color: white;
+        }
+                
+            .menubox-mid{
+                position: absolute;
+                padding-left: 100%;
+                
+            }
+                
+                
+                
+            .menubox-tree-ul{
+                    position: absolute;
+                    background: white;
+                    top: -22px;
+                    width: 200px;                
+                    display: none;
+                    box-shadow: 5px 5px 5px 5px rgb(223, 223, 223);
+                }
+                .menubox-tree-li{
+                    padding: 10px 0px;
+                    border-bottom: 1px solid gray;
+                    text-align: center;
+                }
+                .menubox-tree-li:hover {
+                    background-color: rgb(97, 97, 97);
+                }
+                .menubox-tree-li:hover >a{
+                    color: white;
+                }
+.menu-active{
+    display: block;
+}
+                    
+        
     
 
     
@@ -139,17 +207,21 @@ aside {
         height: 40px;
         padding-top: 10px;
         padding-left: 10px;
-        color:rgb(46,89,99);
         font-size: 12px;
+        
+    }
+    .tagname >a{
+        color:rgb(46,89,99);
+        cursor: default;
+        
     }
 .sidebar-menu{
     height: auto;
     
 }
-    .sidebar-menu  li  a:visited{
-        color:rgb(184,199,206);
-    }
-.sidemenu-li a{
+
+    .sidemenu-li a{
+    color:rgb(184,199,206);
     display: block;
     padding: 10px 5px 10px 15px;
     font-size: 13px;
@@ -205,7 +277,7 @@ aside {
     height: 100px;
     bottom: 0px;
     background-color: black;
-    border-top: 1px solid #c4c4c4;
+    
     padding-top: 15px;
     color: #808080;
     font-size: 11px;
