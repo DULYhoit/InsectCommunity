@@ -1,0 +1,16 @@
+#login-register-box{
+    width: 100%;
+    height: auto;
+    background: white;
+}
+    .register-header{
+        height: 100px;
+        background-color: #fafafa;
+        border-bottom: 1px solid #dfdfdf;
+    }
+        .register-header-margin{
+            height: 100%;
+            position: relative;
+            margin: 0 auto;
+            background: blue;
+        }
