@@ -24,45 +24,58 @@
     margin-left: 5%;
     margin-right: 5%;
 }
-#cm-fb-list-box button:hover{
-    color: rgb(0, 119, 255);
-}
-#fb-list {
-     width:100%;
-     text-align: center;
-     font-family: 'Noto Sans KR', sans-serif;
-     
-     
+
+#fb-list li{
+    font-size: 1.1em
+    
  }
-#fb-list  tr td{
-    padding: 5px;
-    border-bottom: 1px solid #beb18b;
+
+#register-btn-box button{
+    float: right;
+    border-color: transparent;
+    background-color: transparent;
 
 }
-
- #table-header{
-     background-color: silver;
- }
-#notice{
-    background-color: rgb(228, 225, 225);
-}
-#notice-sortation span{
-    background-color: rgb(150, 37, 37);
-    color: white;
-    border: 1px solid;
-    border-color: black;
+#register-btn-box button:hover{
+    cursor: pointer;
+    background-color: #bdbdbd;
+    transition: 800ms ease all;
     
 }
-
+#register-btn-box button:active{
+    background-color: #616161;
+}
 #cm-fb-list-menubtn button {
     border-color: transparent;
+    background-color: #616161;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 800ms ease all;
+    
 }
-#cm-fb-list-menubtn {
-    font-family: 'Noto Sans KR', sans-serif;
+#cm-fb-list-menubtn button:hover {
+    background:#fff;
+    color: #616161;
 }
-#cm-fb-list-menubtn a:hover {
-    color: pink;
+#cm-fb-list-menubtn button:active {
+    background-color: #616161;
 }
-#cm-fb-list-menubtn a:active {
-    color: rgb(238, 82, 108);
+#search-btn {
+    border-color:  transparent;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: -5px;
+    
+}
+#search-btn:hover {
+    background-color: #bdbdbd;
+    
+}
+#search-btn:active {
+    background-color: #616161;
+}
+#search-input{
+    outline: none;
+    border-color: #616161;
+    
 }

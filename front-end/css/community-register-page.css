@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Road+Rage&display=swap');
+#cm-rg-header{
+    border: 1px solid;
+    border-color: #e4e3e3;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: #F5F5F5;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#rg-menu{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+#rg-menu select:focus {
+    border-color: #66AFE9;
+}
+#rg-title {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#title {
+
+}
+#title:focus {
+    outline: none;
+    border: 2px solid #66AFE9;
+}
+#rg-content{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#rg-btn-box{
+    margin-top: 2%;
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#rg-btn-box button {
+    background-color: transparent;
+    border-color: transparent;
+}
+#rg-btn-box button:hover{
+    background-color: #bdbdbd;
+}
+#rg-btn-box button:active{
+    background-color: #616161;
+}

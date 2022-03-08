@@ -180,9 +180,9 @@
                         <div class="in-line">
                             <textarea type="text" name="name" value="" placeholder="댓글입력"></textarea>
                             <input onclick="commentRegist()" type="button" name="name" value="등록"/>
-                            <p style="display:inline;margin-left: 729px;"><input type="checkbox" value="Secret">비밀글</p>
-                            <button id="img-btn"><i class="fa-solid fa-image"></i></button>
-                          </div>
+                        </div>
+                        <p style="display:inline;margin-left: 729px;"><input type="checkbox" value="Secret">비밀글</p>
+                        <button id="img-btn"><i class="fa-solid fa-image"></i></button>
                         </fieldset>
                     </div>
 
@@ -225,9 +225,9 @@
                                         <div class="in-line">
                                             <textarea type="text" name="name" value="" placeholder="댓글입력"></textarea>
                                             <input onclick="commentRegist()" type="button" name="name" value="등록"/>
-                                            <p style="display:inline;margin-left: 720px;"><input type="checkbox" value="Secret">비밀글</p>
-                                            <button id="img-btn"><i class="fa-solid fa-image"></i></button>
-                                          </div>
+                                        </div>
+                                        <p style="display:inline;margin-left: 720px;"><input type="checkbox" value="Secret">비밀글</p>
+                                        <button id="img-btn"><i class="fa-solid fa-image"></i></button>
                                         </fieldset>
                                 </div>
                                 <!--대댓글 register영역 끝-->
@@ -311,36 +311,7 @@
     
     
     
-    <script src="js/jquery-3.6.0.slim.js"></script>
-    <script lang="javascript">
-        function good () {
-            alert("추천되었습니다.")
-        }
-        function goList(str) {
-            location.replace(str);
-        }
-        function report() {
-            alert("신고되었습니다.")
-        }
-        function commentReport (){
-            alert("댓글이 신고되었습니다.")
-        }
-        function resize(obj) {
-        obj.style.height = "1px";
-        obj.style.height = (12+obj.scrollHeight)+"px";
-        }
-        function reply_btn () {
-            if(document.getElementById("reply-register-box").style.display == "none"){
-
-            document.getElementById("reply-register-box").style.display = "block";
-            }
-            else{
-                document.getElementById("reply-register-box").style.display = "none";
-            }
-        }
-        function commentRegist () {
-            alert("등록되었습니다.")
-        }
-    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../../js/community-fb-datail-page.js"></script>
 </body>
 </html>
