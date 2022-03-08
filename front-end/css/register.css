@@ -4,13 +4,167 @@
     background: white;
 }
     .register-header{
-        height: 100px;
+        height: 80px;
         background-color: #fafafa;
         border-bottom: 1px solid #dfdfdf;
+        
     }
         .register-header-margin{
+            max-width: 800px;
             height: 100%;
-            position: relative;
             margin: 0 auto;
-            background: blue;
+            padding: 0;
+           
         }
+            .register-title{
+                padding-top: 30px;
+            }
+    .register-sns-box{
+        width: 800px;
+        height: 120px;
+        margin: 0 auto;
+        border: 1px solid #428bca;
+        margin-top: 30px;
+    }   
+    .register-sns-box-header{
+        box-sizing: border-box;
+        background: #428bca;
+        color: white;
+        padding: 7px;
+    }      
+#register-body{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+   
+        
+    
+    .register-sns-box-content{
+        width: 500px;
+        height: 60px;
+        padding-top: 30px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        
+        
+        
+        
+        
+    }
+    .register-icon{
+
+                width: 150px;
+                height: 30px;
+                background-color: green;
+                
+                
+            }
+    .register-warning{
+        width: 800px;
+        height: 30px;
+        background-color: #d9edf7;
+        color: #31708f;
+        font-size: 12px;
+        border: 1px solid #bce8f1;
+        box-shadow: 1px 1px 5px hsl(0, 0%, 40%);
+        margin: 0 auto;
+        margin-top: 10px;
+        padding: 7px;
+        box-sizing: border-box;
+    }
+.register-penal{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+   
+    
+}
+    .penal-head{
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+        
+        
+    color: #333;
+    
+    }
+    .penal-content{
+        height: 400px;
+        overflow: auto;
+        padding-left: 30px;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        font-size: 12px;
+    }
+        .penal-content::-webkit-scrollbar{
+            width: 3px 
+        }
+        .penal-content::-webkit-scrollbar-thumb{
+            background-color: gray;
+            
+        }
+    .penal-foot{
+        background-color: #f5f5f5;
+        width: 100%;
+        box-sizing: border-box;
+        color: #333;
+        padding: 10px 15px;
+        display: inline-block;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        padding-left: 40px;
+    }
+    .penal-inline{
+        font-size: 12px;
+        display: inline-block;
+        cursor: pointer;
+        margin-bottom: 0;
+    }
+        .penal-inline > input{
+            position: absolute;
+            margin-left: -20px;
+        }
+    .register-table{
+        text-align: left;
+        font-size: 12px;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        border: 1px solid #ddd;
+    }
+    .register-table  tr td,th{
+        padding: 10px 15px;
+    }
+
+            
+
+    .defult{
+        display: none;
+    }
+    .text-center{
+        width: 80px;
+        height: 50px;
+        margin: 0 auto;
+        padding-top: 30px;
+        
+    }
+        .text-center >button{
+            height: 40px;
+            width: 80px;
+            border: 0;
+            outline: 0;
+            margin-left: auto;
+            cursor: pointer;
+        }
+       
+

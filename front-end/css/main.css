@@ -278,7 +278,7 @@ aside {
     height: 100px;
     bottom: 0px;
     background-color: black;
-    
+    position: relative;
     padding-top: 15px;
     color: #808080;
     font-size: 11px;
