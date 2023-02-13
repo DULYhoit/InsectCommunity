@@ -3,8 +3,14 @@ a{
     
     cursor: pointer; /*마우스 커서를 포인트에서 디폴트로 변경*/
 }
+ a:link {
+     color: black;
+    }
 
 a:visited{
+    color: black;
+}
+a:active{
     color: black;
 }
 ::placeholder{
@@ -53,7 +59,7 @@ header {
     
      
 .header-menu{
-        
+        cursor: pointer;
         padding-left: 120px;
     }
     
